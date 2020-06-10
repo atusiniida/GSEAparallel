@@ -14,8 +14,8 @@ rm master.zip
 mv GSEAparallel-master GSEAparallel
 ```
 
-https://www.gsea-msigdb.org/gsea/downloads.jsp\
-よりGSEA v4.0.3 for thecommand line (all platforms)をdownloadし解凍\
+https://www.gsea-msigdb.org/gsea/downloads.jsp \
+よりGSEA v4.0.3 for thecommand line (all platforms)を取得、解凍\
 GSEAparallelディレクトリにGSEA_4.0.3ディレクトリをおく
 
 ### GSEAを実行
