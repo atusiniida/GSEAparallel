@@ -44,10 +44,15 @@ foreach(@ARGV){
 @geneSetFile or die $help;
 @sampleLabelFile or die $help;
 
+
 my $genePermutationCutoff = 3;
 
 #my $gseaDir = get_home_dir()."/GSEA/";
 my $gseaDir = get_home_dir()."/GSEA_4.0.3/";
+if(!-d $gseaDir){
+  die "cannot find GSEA_4.0.3!\n";
+}
+
 #my $command =  "/usr/local/package/java/10_2018-03-20/bin/java -Xmx2048m -XX:CompressedClassSpaceSize=256m -cp ${gseaDir}gsea2-2.07.jar xtools.gsea.Gsea";
 my $command =   "sh  ${gseaDir}gsea-cli.sh GSEA  ";
 
