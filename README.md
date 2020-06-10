@@ -33,7 +33,7 @@ C.tabは以下のような行列形式のフォーマット\
 サンプル名はA.tabとの積集合をとって解析を行うので全部同じにする必要はない。\
 二種類の数字、文字列をめば二群比較、二種類以上の数値は連続値との相関解析となる。\
 'na', ''を含めば当該サンプルに対する当該サンプルラベルは省いて解析する。\
-二群比較の場合どちらかのグループのサンプル数がに以下の場合はgene-wise permutationを使う。
+二群比較の場合どちらかのグループのサンプル数が二以下の場合はgene-wise permutationを使う。
 
 >[tab]sample1[tab]sample2[tab]sample3[tab]sample4[tab]sample5\
 group[tab]1[tab]1[tab]0[tab]0[tab]0[tab]1[tab]0[tab]1[tab]na[tab]0\
