@@ -46,7 +46,7 @@ factor[tab]-2.0[tab]3.0[tab]2.0[tab]1.0[tab]0.0
 
 テストデータを使うと
 ```
- perl GSEAparallel/perl/gsea.pl GSEAparallel/data/coadExp3000.tab  EEM2.0/data/hallmark.gmt　GSEAparallel/sampleLabel.tab
+ perl GSEAparallel/perl/gsea.pl GSEAparallel/data/coadExp3000.tab  EEM2.0/data/hallmark.gmt　GSEAparallel/data/sampleLabel.tab
 ```
 GseaXXXXXXができ(XXXXXXは日付)その中のindex.htmlをブラウザで開けば結果見える。
 
