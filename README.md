@@ -14,7 +14,7 @@ rm master.zip
 mv GSEAparallel-master GSEAparallel
 ```
 
-### を実行
+### GSEAを実行
 発現データA.tab、遺伝子セットデータB.gmt、サンプルラベルデータC.tabに適用
 ```
 perl GSEAparallel/perl/gsea.pl  A.tab B.gmt C.tab
