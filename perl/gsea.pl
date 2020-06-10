@@ -10,8 +10,11 @@ if($0 =~ /.*(\/){0,1}perl/){
 require EEM;
 require MyMath;
 
-
-my $HOME = get_home_dir();
+use FindBin;
+my $script_dir = $FindBin::Bin;
+my $HOME = $script_dir;
+$HOME =~ s/perl$//;
+#my $HOME = get_home_dir();
 #set_environment();
 
 my $help = qq($0 [-o outDir] expFile(*.tab)  geneSetFile(*.gmt) sampleLableFile(*.tab)
@@ -48,10 +51,11 @@ foreach(@ARGV){
 my $genePermutationCutoff = 3;
 
 #my $gseaDir = get_home_dir()."/GSEA/";
-my $gseaDir = get_home_dir()."/GSEA_4.0.3/";
-if(!-d $gseaDir){
+my $gseaDir = $HOME."/GSEA_4.0.3/";
+unless(-d $gseaDir){
   die "cannot find GSEA_4.0.3!\n";
 }
+
 
 #my $command =  "/usr/local/package/java/10_2018-03-20/bin/java -Xmx2048m -XX:CompressedClassSpaceSize=256m -cp ${gseaDir}gsea2-2.07.jar xtools.gsea.Gsea";
 my $command =   "sh  ${gseaDir}gsea-cli.sh GSEA  ";
