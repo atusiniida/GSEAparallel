@@ -15,7 +15,7 @@ mv GSEAparallel-master GSEAparallel
 ```
 
 https://www.gsea-msigdb.org/gsea/downloads.jsp \
-よりGSEA v4.0.3 for thecommand line (all platforms)を取得、解凍\
+よりGSEA v4.0.3 for the command line (all platforms)を取得、解凍\
 GSEAparallelディレクトリにGSEA_4.0.3ディレクトリをおく
 
 ### GSEAを実行
