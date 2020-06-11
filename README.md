@@ -29,7 +29,7 @@ gene1[tab]1.0[tab]1.0[tab]2.0[tab]3.0[tab]-1.0\
 gene2[tab]5.0[tab]1.0[tab]6.0[tab]-3.0[tab]-2.0\
 gene3[tab]5.0[tab]-2.0[tab]-1.0[tab]4.0[tab]3.0
 
-B.gmtのフォーマットは以下を参照
+B.gmtのフォーマットは以下を参照　\
 http://software.broadinstitute.org/cancer/software/genepattern/file-formats-guide#GMT
 
 C.tabは以下のような行列形式のフォーマット\
