@@ -46,7 +46,7 @@ factor[tab]-2.0[tab]3.0[tab]2.0[tab]1.0[tab]0.0
 
 テストデータを使うと
 ```
- perl GSEAparallel/perl/gsea.pl GSEAparallel/data/coadExp3000.tab  EEM2.0/data/hallmark.gmt　GSEAparallel/data/sampleLabel.tab
+ perl GSEAparallel/perl/gsea.pl GSEAparallel/data/coadExp3000.tab  GSEAparallel/data/hallmark.gmt　GSEAparallel/data/sampleLabel.tab
 ```
 Gsea[yymmdd]ができ([yymmdd]は日付)その中のindex.htmlをブラウザで開けば結果が見える。\
 A.tab、B.gmt、C.tabそれぞれは複数ファイル指定可能。
